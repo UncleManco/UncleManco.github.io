@@ -461,9 +461,11 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"> </script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    </i><div id="bottomheart" style="cursor:pointer;"><i class="fa fa-"></i></div>
+
   </span>
   <span class="author" itemprop="copyrightHolder">Uncle Manco</span>
 
@@ -484,6 +486,33 @@
 
 
 
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_pv">
+  访问量:<span id="busuanzi_value_site_pv"></span>
+</span>
+</div>
+
+<p id="RunTime" style="color:DarkGray;"></p>
+               <script>
+var BootDate = new Date("2018/06/28 00:00:00");
+function ShowRunTime(id) {
+var NowDate = new Date();
+var RunDateM = parseInt(NowDate - BootDate);
+var RunDays = Math.floor(RunDateM/(24*3600*1000));
+var RunHours = Math.floor(RunDateM%(24*3600*1000)/(3600*1000));
+var RunMinutes = Math.floor(RunDateM%(24*3600*1000)%(3600*1000)/(60*1000));
+var RunSeconds = Math.round(RunDateM%(24*3600*1000)%(3600*1000)%(60*1000)/1000);
+var RunTime = RunDays + "天" + RunHours + "时" + RunMinutes + "分" + RunSeconds + "秒";
+document.getElementById(id).innerHTML = "至善叔叔的独立博客已运行：" + RunTime;
+}
+setInterval("ShowRunTime('RunTime')", 1000);
+               </script>
         
 
 
@@ -646,5 +675,7 @@
 
   
 
+  <script type="text/javascript" src="/js/src/hexo-next-bottomheart.js"></script>
+  <script type="text/javascript" src="/js/src/love.js"></script>
 </body>
 </html>
