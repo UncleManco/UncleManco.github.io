@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="">
+<html class="theme-next muse use-motion" lang="">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -98,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Muse',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -477,7 +477,8 @@
         <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"> </script>
 <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    </i><div id="bottomheart" style="cursor:pointer;"><i class="fa fa-"></i></div>
+
   </span>
   <span class="author" itemprop="copyrightHolder">Uncle Manco</span>
 
@@ -493,7 +494,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
 
 
 
@@ -669,7 +670,7 @@ setInterval("ShowRunTime('RunTime')", 1000);
   
   <script type="text/javascript">
     var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
+    var guest = '来都来了，不顺便吐个槽？';
     guest = guest.split(',').filter(item=>{
       return GUEST.indexOf(item)>-1;
     });
@@ -679,7 +680,7 @@ setInterval("ShowRunTime('RunTime')", 1000);
         notify: false,
         appId: 'OaSnDOPRACTjW6MhbbeKg31K-gzGzoHsz',
         appKey: 'Ki2DyRu6wB1LBdYvWuQJqGjg',
-        placeholder: 'let go go',
+        placeholder: '伟大的言论框',
         avatar:'mm',
         guest_info:guest,
         pageSize:'10' || 10,
@@ -709,6 +710,7 @@ setInterval("ShowRunTime('RunTime')", 1000);
 
   
 
+  <script type="text/javascript" src="/js/src/hexo-next-bottomheart.js"></script>
   <script type="text/javascript" src="/js/src/love.js"></script>
 </body>
 </html>
