@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hexo, 独立博客,至善叔叔"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -48,7 +48,7 @@ footer:
   #since: 2015
 
   # Icon between year and copyright info.
-  icon: user
+  icon: heart
 
   # If not defined, will be used `author` from Hexo main config.
   copyright:
@@ -60,7 +60,7 @@ footer:
     # Theme & scheme info link (Theme - NexT.scheme).
     enable: true
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    version: false
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
@@ -93,9 +93,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -111,8 +111,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -145,16 +145,16 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: Links
+links_title: 更多关于至善叔叔
 links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  😆微信公众号主页: http://mp.weixin.qq.com/mp/homepage?__biz=MzI0NjAxNjU5Mg==&hid=2&sn=25f3494a453782493cc81c012c7f67a7#wechat_redirect
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: /images/avatar2.gif
 
 # Table Of Contents in the Sidebar
 toc:
@@ -197,7 +197,7 @@ sidebar:
   scrollpercent: false
 
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 
 # ---------------------------------------------------------------
@@ -230,9 +230,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: true
+  min2read: true
+  totalcount: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -377,16 +377,16 @@ changyan:
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
-valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
+# valine:
+#   enable: ture
+#   appid:  OaSnDOPRACTjW6MhbbeKg31K-gzGzoHsz
+#   appkey:  Ki2DyRu6wB1LBdYvWuQJqGjg
+#   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+#   verify: false # Verification code
+#   placeholder: let go go # comment box placeholder
+#   avatar: mm # gravatar style
+#   guest_info: nick,mail,link # custom comment header
+#   pageSize: 10 # pagination size
 
 
 # Support for youyan comments system.
@@ -401,16 +401,16 @@ valine:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github ID
-  github_repo: # MUST HAVE, The repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_user: UncleManco
+  github_repo: UncleManco.github.io
+  client_id: 134bb87373eb7945f137
+  client_secret: 1d6b1b58a7d0d4e683ef3944a904fa52b4ee37cf
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -549,18 +549,18 @@ firestore:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_header: <i class="fa fa-user"></i>访客数
   site_uv_footer:
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_header: <i class="fa fa-eye"></i>访问量
   site_pv_footer:
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: <i class="fa fa-file-o"></i> 阅读量
   page_pv_footer:
 
 
@@ -811,3 +811,9 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+# Wechat Subscriber
+# wechat_subscriber:
+#   enabled: true
+#   qcode: /uploads/wechat-qcode.jpg
+#   description: 我的微信公众号-至善叔叔

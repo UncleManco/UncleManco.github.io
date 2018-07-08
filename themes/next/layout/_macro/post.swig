@@ -227,7 +227,7 @@
                   <span class="post-meta-divider">|</span>
                 {% endif %}
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
+                  <i class="fa fa-file-word-o"></i> 文章字数
                 </span>
                 {% if theme.post_wordcount.item_text %}
                   <span class="post-meta-item-text">{{ __('post.wordcount') }}&#58;</span>
@@ -243,7 +243,7 @@
 
               {% if theme.post_wordcount.min2read %}
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
+                  <i class="fa fa-clock-o"></i> 预估阅读时长
                 </span>
                 {% if theme.post_wordcount.item_text %}
                   <span class="post-meta-item-text">{{ __('post.min2read') }} &asymp;</span>
