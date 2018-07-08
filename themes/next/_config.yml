@@ -145,7 +145,7 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: 更多关于至善叔叔
+links_title: 关于至善叔叔
 links_layout: block
 #links_layout: inline
 links:
@@ -154,7 +154,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/avatar2.gif
+avatar: http://pb8ku55ft.bkt.clouddn.com/images/avatar2.gif
 
 # Table Of Contents in the Sidebar
 toc:
@@ -216,7 +216,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings

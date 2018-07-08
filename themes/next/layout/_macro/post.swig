@@ -290,6 +290,13 @@
       {% endif %}
 
       {% if is_index %}
+
+      {% if post.images %}
+      <div class="out-img-topic">
+        <img src={{ post.images }} class="img-topic">
+      </div>
+      {% endif %}
+
         {% if post.description and theme.excerpt_description %}
           {{ post.description }}
           <!--noindex-->
@@ -301,6 +308,7 @@
           <!--/noindex-->
         {% elif post.excerpt  %}
           {{ post.excerpt }}
+
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="{{ url_for(post.path) }}{% if theme.scroll_to_more %}#{{ __('post.more') }}{% endif %}" rel="contents">
