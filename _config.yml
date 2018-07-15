@@ -4,8 +4,8 @@
 
 # Site
 title: 至善叔叔
-subtitle: 一直写吧 管他天有多荒 地有多老
-description: 一直写吧 管他天有多荒 地有多老
+subtitle: Only Time Will Tell
+description: Only Time Will Tell
 keywords: 摄影；写作；看书；运营
 author: 至善叔叔
 language: zh-Hans
@@ -70,15 +70,15 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+#   hub:
+#   content:
+#   content_limit: 140
+#   content_limit_delim: ' '
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
