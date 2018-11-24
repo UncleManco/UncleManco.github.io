@@ -88,7 +88,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/UncleManco/UncleManco.github.io 
+  repository: gitt@118.25.212.105:/var/git/myblog.git
   branch: master 
   plugins: -hexo-generator-feed
 
