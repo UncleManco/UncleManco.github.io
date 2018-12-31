@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 至善叔叔
+title: 生活随笔
 subtitle: Only Time Will Tell
 description: Only Time Will Tell
 keywords: 摄影；写作；看书；运营
@@ -116,7 +116,7 @@ qiniu:
   access_key: YHlvREdnG1TcsGFisAoEGCq_E3RXQnancYOXo7KO
   secret_key: 3mdpAKqB-zX3OfeiYCuMVK-y62wi0bi7iSjB81Bh
   dirPrefix: 
-  urlPrefix: http://pb8ku55ft.bkt.clouddn.com
+  urlPrefix: www.unclemanco.com.qiniudns.com
   up_host: http://upload.qiniu.com
   local_dir: qiniud
   update_exist: true
