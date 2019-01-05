@@ -116,7 +116,7 @@ qiniu:
   access_key: YHlvREdnG1TcsGFisAoEGCq_E3RXQnancYOXo7KO
   secret_key: 3mdpAKqB-zX3OfeiYCuMVK-y62wi0bi7iSjB81Bh
   dirPrefix: 
-  urlPrefix: qiniu.unclemanco.com
+  urlPrefix: http://qiniu.unclemanco.com
   up_host: http://upload.qiniu.com
   local_dir: qiniud
   update_exist: true
